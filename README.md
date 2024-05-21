@@ -8,12 +8,12 @@
 
 
 > JdbcTemplate을 이용해 Database에 접속하고, 쿼리를 실행해봅니다! <br>
-> 먼저 In-Memory H2 Database를 사용하기 위해, SpringBoot Dependency에 JDBC 와 H2 Database를 추가해줘요!
+> 먼저 In-Memory H2 Database를 사용하기 위해, SpringBoot Dependency에 JDBC 와 H2 Database를 추가해줘요! <br>
 > 
-> JdbcTemplate 에 @Autowired 어노테이션을 사용해 커넥션을 가져와요!
+> JdbcTemplate 에 @Autowired 어노테이션을 사용해 커넥션을 가져와요! <br>
 > 프로그램 실행 시 자동으로 실행되는 메서드를 만들기 위해 CommandLineRunner의 Run 메서드를 구현해요! <br>
 > Run 메서드에 JdbcTemplate을 이용해 쿼리를 실행해봅니다! <br>
-> 이 템플릿은 Java 21, Gradle 기준으로 작성됐어요!
+> 이 템플릿은 Java 21, Gradle 기준으로 작성됐어요! <br>
 > 
 
 <br>
